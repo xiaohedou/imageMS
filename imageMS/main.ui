@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>813</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>图片批量处理器</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>813</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>主菜单</string>
+    </property>
+    <addaction name="actiontianjiashuiyin"/>
+    <addaction name="actionpiliangchongmingming"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>|| 关于</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actiontianjiashuiyin">
+   <property name="icon">
+    <iconset>
+     <normaloff>G:/F盘/例图/图标/16×16(像素）/ICO/图标 (23).ico</normaloff>G:/F盘/例图/图标/16×16(像素）/ICO/图标 (23).ico</iconset>
+   </property>
+   <property name="text">
+    <string>添加水印</string>
+   </property>
+  </action>
+  <action name="actionpiliangchongmingming">
+   <property name="icon">
+    <iconset>
+     <normaloff>G:/F盘/例图/图标/16×16(像素）/ICO/图标 (217).ico</normaloff>G:/F盘/例图/图标/16×16(像素）/ICO/图标 (217).ico</iconset>
+   </property>
+   <property name="text">
+    <string>批量重命名</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
